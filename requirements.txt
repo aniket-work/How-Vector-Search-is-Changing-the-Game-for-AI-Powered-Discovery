@@ -1,0 +1,9 @@
+numpy
+matplotlib
+faiss-cpu
+hnswlib
+faiss-cpu==1.7.4
+sentence-transformers
+scikit-learn
+
+
