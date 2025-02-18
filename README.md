@@ -1,37 +1,36 @@
 # How Vector Search is Changing the Game for AI-Powered Discovery
 
-Transforming Healthcare Intelligence: Building a Professional Medical AI Assistant from Ground Up
+The Way AI Finds What Matters — Faster, Smarter, and More Like Us
 
-## TL;DR
+## The Problem with “Dumb” Search
 
-A practical implementation of an AI-powered B2B order management system using LangChain and LLM, demonstrating automated order processing, inventory management, and real-time communication between trading partners.
+Early in my career, I built a recipe recommendation app that matched keywords like “chicken” to recipes containing “chicken.” It failed spectacularly. Users searching for “quick weeknight meals” didn’t care about keywords — they wanted context: meals under 30 minutes, minimal cleanup, kid-friendly. Traditional search couldn’t bridge that gap.
 
-Full Article : [https://medium.com/@learn-simplified/How-Vector-Search-is-Changing-the-Game-for-AI-Powered-Discovery-a-vertical-ai-agent-system-72c40a4560ad
+Vector search changes this. Instead of treating data as strings, it maps everything — text, images, user behavior — into numerical vectors that capture meaning. For example, “quick weeknight meals,” “30-minute dinners,” and “easy family recipes” cluster closely in vector space, even with zero overlapping keywords. This is how AI starts to “think” like us .
 
-
-## Tech stack
-
-![Design Diagram](design_docs/tech_stack.jpg)
+Full Article : [https://medium.com/@learn-simplified/how-vector-search-is-changing-the-game-for-ai-powered-discovery-0f290b5039ec
 
 
-## Introduction
-Picture walking into a doctor’s office where AI understands medical knowledge as thoroughly as a seasoned practitioner. That’s exactly what inspired building HealthIQ AI. This isn’t just another chatbot — it’s a specialized medical assistant that combines document understanding, vector search, and natural language processing to provide reliable healthcare guidance.
+
+## What This Article Is About
+This article is my try to dives into how vector search is revolutionizing AI’s ability to discover patterns, relationships, and insights at unprecedented speed and precision. By moving beyond rigid keyword matching, vector search enables machines to understand context, infer intent, and retrieve results with human-like intuition. Through Python code examples, system design diagrams, and industry use cases (like accelerating drug discovery and personalizing content feeds), we’ll explore how this technology makes AI systems faster, more adaptable.
 
 ## Architecture
 
-![Design Diagram](design_docs/design.png)
+![Design Diagram](docs/1.jpg)
+![Design Diagram](docs/2.jpg)
+![Design Diagram](docs/3.png)
 
-
-
-## What’s This Article About?
-This article walks through building a professional medical AI system from scratch. Starting with document processing, moving through vector embeddings, and culminating in an intuitive chat interface, each component serves a specific purpose. The system processes medical PDFs, creates searchable vector representations, and generates contextual responses using language models. What makes it special is the visual exploration of medical knowledge through an interactive 3D interface, helping users understand relationships between different medical concepts.
 
 
 ## Why Read It?
-As businesses race to integrate AI, healthcare stands at the forefront of potential transformation. This article provides a practical blueprint for implementing a vertical AI solution in the medical domain. While HealthIQ AI serves as our example, the architecture and techniques demonstrated here apply to any industry-specific AI implementation. The modular design shows how to combine document processing, vector search, and language models into a production-ready system that could transform how organizations handle specialized knowledge.
+- For Developers: Build lightning-fast search systems using modern tools like FAISS and Hugging Face, with optimizations for real-world latency and scale.
+- For Business Leaders: Discover how vector search drives competitive advantages in customer experience, fraud detection, and dynamic pricing.
+- For Innovators: Learn why hybrid architectures and multimodal AI are the future of intelligent systems.
+- Bonus: Lessons from my own journey deploying vector search — including costly mistakes and unexpected breakthroughs.
 
 
-# Tutorial: Let's Build HealthIQ AI - A Vertical AI Agent System
+# Tutorial: How Vector Search is Changing the Game for AI-Powered Discovery
 
 ## Prerequisites
 - Python installed on your system.
@@ -61,7 +60,7 @@ As businesses race to integrate AI, healthcare stands at the forefront of potent
 
 **Install Project Dependencies:**
 
-Follow these steps to set up and run the  "Let's Build HealthIQ AI - A Vertical AI Agent System"
+Follow these steps to set up and run the  "How Vector Search is Changing the Game for AI-Powered Discovery"
 
 1. Navigate to your project directory:
    ```
@@ -75,15 +74,6 @@ Follow these steps to set up and run the  "Let's Build HealthIQ AI - A Verti
    ```
    This command installs all the necessary Python packages listed in the requirements.txt file.
 
-
-## Run - Hands-On Guide: Let's Build HealthIQ AI - A Vertical AI Agent System
-
-   ```bash 
-     
-      # Run 
-      streamlit run app.py
-      
-   ```
 
 
 
